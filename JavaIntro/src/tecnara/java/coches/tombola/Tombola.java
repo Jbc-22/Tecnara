@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tecnara.java.tombola;
+package tecnara.java.coches.tombola;
 
-import tecnara.java.bicis.Bicicleta;
-import tecnara.java.coches.Peugeot;
-import tecnara.java.ifaces.IMusicable;
+import tecnara.java.coches.bicis.Bicicleta;
+import tecnara.java.coches.tipos.Peugeot;
+import tecnara.java.coches.ifaces.IMusicable;
 
 /**
  *

@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tecnara.java.coches;
+package tecnara.java.coches.tipos;
 
-import tecnara.java.ifaces.IMusicable;
+import tecnara.java.coches.ifaces.IMusicable;
 
 /**
  *

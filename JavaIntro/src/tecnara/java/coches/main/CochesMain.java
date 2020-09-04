@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tecnara.java.main;
+package tecnara.java.coches.main;
 
-import tecnara.java.ifaces.IMusicable;
-import tecnara.java.tombola.Tombola;
+import tecnara.java.coches.ifaces.IMusicable;
+import tecnara.java.coches.tombola.Tombola;
 
 /**
  *
