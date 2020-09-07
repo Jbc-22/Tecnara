@@ -5,14 +5,22 @@
  */
 package tecnara.java.zoo.animales;
 
+import tecnara.java.zoo.animales.ifaces.INadable;
+
 /**
  *
  * @author marco
  */
-public class Tortuga extends Animal {
+public class Ballena  extends Animal implements INadable{
 
     @Override
     public String show() {
-        return "Soy una tortuga de tierra y voy lentísima!";
+        return "Soy una ballena que canta bajo el agua";
     }
+
+    @Override
+    public String showDeNatacion() {
+        return "Soy una ballena que salpica al publico";
+    }
+    
 }

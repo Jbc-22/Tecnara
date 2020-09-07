@@ -3,16 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tecnara.java.zoo.animales;
+package tecnara.java.zoo.animales.ifaces;
 
 /**
  *
  * @author marco
  */
-public class Tortuga extends Animal {
-
-    @Override
-    public String show() {
-        return "Soy una tortuga de tierra y voy lentísima!";
-    }
+public interface INadable {
+    public String showDeNatacion();
 }

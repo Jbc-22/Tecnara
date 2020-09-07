@@ -5,17 +5,14 @@
  */
 package tecnara.java.zoo;
 
-import tecnara.java.zoo.animales.Animal;
 import tecnara.java.zoo.animales.ifaces.INadable;
 
 /**
  *
  * @author marco
  */
-public class Zoo {
-    public static Acuario acuario;
-    public static void performShow(Animal animal){
-        System.out.println(animal.show());
+public class Acuario {
+    public static void performAquaticShow(INadable animalNadable){
+        System.out.println(animalNadable.showDeNatacion());
     }
 }
-

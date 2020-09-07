@@ -5,8 +5,11 @@
  */
 package tecnara.java.zoo.main;
 
+import tecnara.java.zoo.Acuario;
 import tecnara.java.zoo.Zoo;
+import tecnara.java.zoo.animales.Delfin;
 import tecnara.java.zoo.animales.Leon;
+import tecnara.java.zoo.animales.Papagayo;
 import tecnara.java.zoo.animales.Tortuga;
 
 /**
@@ -19,5 +22,13 @@ public class Main {
         Leon l = new Leon();
         Zoo.performShow(l);
         Zoo.performShow(t);
+        
+        Delfin delfin = new Delfin();
+        Papagayo papagayo = new Papagayo();
+        
+        Zoo.performShow(papagayo);
+        
+        Zoo.acuario.performAquaticShow(delfin);
+
     }
 }

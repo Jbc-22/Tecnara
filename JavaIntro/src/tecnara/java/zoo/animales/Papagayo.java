@@ -9,10 +9,11 @@ package tecnara.java.zoo.animales;
  *
  * @author marco
  */
-public class Tortuga extends Animal {
+public class Papagayo extends Animal{
 
     @Override
     public String show() {
-        return "Soy una tortuga de tierra y voy lentísima!";
+        return "Soy un papagayo que canta";
     }
+    
 }
